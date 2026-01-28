@@ -13,9 +13,3 @@ User-agent: ClaudeBot
 Disallow: /
 User-agent: Google-Extended
 Disallow: /
-
-# Important notes:
-# These are advisory only
-# Legit search bots are not affected
-# Bad scrapers will ignore this anyway
-# This is fine and common practice now.
