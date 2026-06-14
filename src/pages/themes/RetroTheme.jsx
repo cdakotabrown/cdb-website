@@ -74,7 +74,9 @@ export default function RetroTheme() {
                 <li>Believes in long lunches</li>
                 <li>Builds things for the web</li>
                 <li>Heavily uses AI in development workflow</li>
-                <li>Believes the best code is the code you didn't write</li>
+                <li>
+                  Believes the best code is the code you didn&apos;t write
+                </li>
               </ul>
             </div>
 
@@ -97,9 +99,9 @@ export default function RetroTheme() {
             <div className={styles.section}>
               <h2 className={styles.sectionTitle}>License</h2>
               <p className={styles.paragraph}>
-                This human is provided "as is" without warranty of any kind. Use
-                at your own risk. Not responsible for hot takes delivered before
-                morning coffee.
+                This human is provided &quot;as is&quot; without warranty of any
+                kind. Use at your own risk. Not responsible for hot takes
+                delivered before morning coffee.
               </p>
             </div>
           </div>

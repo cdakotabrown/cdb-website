@@ -38,7 +38,9 @@ export default function NewgroundsTheme() {
       <header className={styles.header}>
         <div className={styles.headerTop}>
           <span className={styles.logo}>FAV</span>
-          <span className={styles.tagline}>Everything I'm Into Right Now</span>
+          <span className={styles.tagline}>
+            Everything I&apos;m Into Right Now
+          </span>
         </div>
         <nav className={styles.navRow}>
           <span className={styles.navPillActive}>Games</span>
@@ -68,17 +70,17 @@ export default function NewgroundsTheme() {
               <p
                 style={{ color: "#ccc", lineHeight: 1.6, marginBottom: "1rem" }}
               >
-                Fighting games are my thing. There's nothing like the feeling of
-                labbing a combo for hours and then landing it in a real match.
-                The FGC is one of the last genuine communities in gaming —
-                locals, majors, money matches, all of it.
+                Fighting games are my thing. There&apos;s nothing like the
+                feeling of labbing a combo for hours and then landing it in a
+                real match. The FGC is one of the last genuine communities in
+                gaming — locals, majors, money matches, all of it.
               </p>
               <p
                 style={{ color: "#ccc", lineHeight: 1.6, marginBottom: "1rem" }}
               >
-                Right now I'm deep in the Guilty Gear Strive rotation, but I'll
-                play anything with a health bar and a round timer. Tekken 8 and
-                SF6 are both in heavy rotation too.
+                Right now I&apos;m deep in the Guilty Gear Strive rotation, but
+                I&apos;ll play anything with a health bar and a round timer.
+                Tekken 8 and SF6 are both in heavy rotation too.
               </p>
 
               <div>

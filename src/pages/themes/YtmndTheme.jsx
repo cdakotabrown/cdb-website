@@ -57,7 +57,7 @@ export default function YtmndTheme() {
               replace developers not using AI
             </li>
             <li>Senior engineer means you know what not to build</li>
-            <li>The best code is the code you didn't write</li>
+            <li>The best code is the code you didn&apos;t write</li>
             <li>
               Meetings that could have been an email could have also been
               nothing
