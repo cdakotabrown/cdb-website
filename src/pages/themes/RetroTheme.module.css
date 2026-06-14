@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.wrapper {
+  margin: calc(-1 * var(--spacing-xl)) calc(-1 * var(--container-padding));
+  background: #008080;
+  min-height: 100vh;
+  padding: var(--spacing-2xl);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.6rem;
+  color: #fff;
+  margin-bottom: var(--spacing-xl);
+  text-shadow: 1px 1px 0 #000;
+}
+
+.backLink:hover {
+  color: #ffff00;
+}
+
+.window {
+  border: 2px solid;
+  border-color: #dfdfdf #808080 #808080 #dfdfdf;
+  background: #c0c0c0;
+  box-shadow:
+    inset 1px 1px 0 #fff,
+    inset -1px -1px 0 #0a0a0a;
+  max-width: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.titleBar {
+  background: linear-gradient(90deg, #000080, #1084d0);
+  padding: 3px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.titleText {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-left: 2px;
+}
+
+.titleButtons {
+  display: flex;
+  gap: 2px;
+}
+
+.titleBtn {
+  width: 16px;
+  height: 14px;
+  background: #c0c0c0;
+  border: 1px solid;
+  border-color: #dfdfdf #808080 #808080 #dfdfdf;
+  font-size: 0.55rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.menuBar {
+  background: #c0c0c0;
+  padding: 2px 4px;
+  border-bottom: 1px solid #808080;
+  display: flex;
+  gap: 0;
+}
+
+.menuItem {
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  cursor: default;
+}
+
+.menuItem:hover {
+  background: #000080;
+  color: #fff;
+}
+
+.windowBody {
+  padding: 1.25rem;
+  background: #fff;
+  margin: 3px;
+  border: 1px solid;
+  border-color: #808080 #dfdfdf #dfdfdf #808080;
+  position: relative;
+  overflow: hidden;
+}
+
+.scanlines {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.06),
+    rgba(0, 0, 0, 0.06) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.bodyContent {
+  position: relative;
+  z-index: 0;
+}
+
+.pixelTitle {
+  font-family: "Press Start 2P", cursive;
+  font-size: clamp(0.9rem, 2.5vw, 1.4rem);
+  color: #000080;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, #808080, #c0c0c0, #808080);
+  margin: 1rem 0;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle {
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.7rem;
+  color: #800000;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.paragraph {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 0.75rem;
+}
+
+.retroList {
+  list-style: none;
+  padding: 0;
+  font-size: 0.85rem;
+}
+
+.retroList li {
+  padding: 0.35rem 0;
+  color: #333;
+}
+
+.retroList li::before {
+  content: ">> ";
+  color: #000080;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.5rem;
+}
+
+.statusBar {
+  background: #c0c0c0;
+  padding: 3px 6px;
+  border-top: 1px solid #dfdfdf;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.statusSection {
+  border: 1px solid;
+  border-color: #808080 #dfdfdf #dfdfdf #808080;
+  padding: 1px 6px;
+}
+
+.visitorCounter {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.55rem;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.counterBox {
+  display: inline-block;
+  background: #000;
+  color: #00ff00;
+  padding: 4px 12px;
+  margin-top: 6px;
+  border: 2px inset #808080;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
+.netscapeNotice {
+  text-align: center;
+  margin-top: var(--spacing-md);
+  font-size: 0.55rem;
+  font-family: "Press Start 2P", cursive;
+  color: #ffff00;
+  text-shadow: 1px 1px 0 #000;
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    padding: var(--spacing-md);
+  }
+
+  .menuBar {
+    display: none;
+  }
+}
