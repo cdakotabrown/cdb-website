@@ -1,0 +1,38 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(10, 10, 10, 0.9);
+  cursor: pointer;
+}
+
+.message {
+  text-align: center;
+  padding: var(--spacing-3xl);
+  background: var(--color-surface);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 0 60px rgba(156, 175, 136, 0.3);
+}
+
+.title {
+  font-size: var(--font-size-page-title);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-md);
+}
+
+.text {
+  font-size: var(--font-size-section);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-lg);
+}
+
+.hint {
+  font-size: var(--font-size-small);
+  color: var(--color-text-muted);
+  margin: 0;
+}

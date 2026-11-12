@@ -1,0 +1,37 @@
+.page {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: var(--spacing-xl);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  text-align: center;
+}
+
+.hat {
+  display: block;
+  width: min(160px, 40vw);
+  height: auto;
+  transition: transform var(--transition-fast);
+}
+
+.hat:hover {
+  transform: rotate(-8deg);
+}
+
+.title {
+  font-size: var(--font-size-section);
+  margin: var(--spacing-md) 0 0;
+}
+
+.hint {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-small);
+  margin: 0;
+}
